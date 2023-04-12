@@ -14,7 +14,6 @@ email.addEventListener('click', ()=>{copy(email)});
 
 function copy(item) {
     navigator.clipboard.writeText(item.innerText);
-    console.log("Copiado al portapapeles: " + item.innerText);
 }
 
 document.querySelectorAll('.hidden-click-item').forEach(item => {
@@ -27,7 +26,6 @@ document.querySelectorAll('.has-hidden-item').forEach(item => {
 })
 
 function showClicked(element){
-    console.log("se muestra el elemento")
     element.setAttribute("style", "display:block");
     click.setAttribute("style", "display:none");
     setTimeout(function () {
