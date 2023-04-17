@@ -1805,6 +1805,10 @@ p {
     justify-content: start;
 }
 
+#soft-skills .text {
+    margin-top: -1%;
+}
+
 #skills .item p {
     font-size: 0.9rem;
     padding-right: 0.8rem;
